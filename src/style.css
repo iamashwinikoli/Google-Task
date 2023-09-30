@@ -1,0 +1,87 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+header
+{
+    text-align: right;
+	padding: 50px;
+	height: 50px;
+}
+nav a
+{
+	text-align: right;
+	margin: 6px;
+	padding: 5px;
+	text-decoration:underline;
+	color:blue;
+	display: inline-block;
+}
+#textsearch
+{
+	text-align: left;
+	margin:0 auto;
+	line-height: 30px;
+	padding-top:0px;
+	width:450px;
+	border-color:black;
+}
+#img-tag
+{
+	text-align: center;
+	width: 350px;
+	height: 120px;
+	display:block;
+	margin:0 auto;
+}
+.search-bar				/*class selector*/
+{
+	padding: 10px;
+	text-align: center;
+}
+footer
+{
+	background-color:black;
+	color: white;
+	position: fixed;
+	bottom: 3px;
+	width: 100%;
+	text-align: center;
+}
+footer a
+{
+	padding: 3px;
+	margin: 6px;
+	text-decoration:underline;
+	color:blue;
+	display: inline-block;
+}
+#inbox									/*id selector*/
+{
+	background-color:rgb(89, 195, 89); 
+	cursor: pointer;
+	text-align: right;
+    margin: 5px;
+    font-size: 17px;
+}
+#web-store								/*id selector*/
+{
+	background-color:palevioletred; 
+	cursor: pointer;
+	text-align: right;
+    margin: 5px;
+    font-size: 17px;
+}
+#add-shortcut							/*id selector*/
+{
+	background-color:skyblue ;
+	cursor: pointer;
+	text-align: right;
+    margin: 3px;
+    font-size: 17px;
+}
+p
+{
+	text-align: center;
+}
