@@ -22,9 +22,9 @@ nav a
 {
 	align-items: center;
 	background-color: white;
-	margin:0 auto;
+	margin:auto;
 	line-height: 30px;
-	border-radius: 10px;
+	border-radius: 5px;
 	height: 2.5rem;
 	box-shadow: 0px 8px 8px #ddd;
 	display: flex;
@@ -42,35 +42,27 @@ nav a
 }
 search-bar				
 {
-	padding: 5px;
+	padding: 4px;
 	text-align: center;
 }
 /*.btn1
 {
-	margin:5px ;
-	padding: 8px;
-    text-align: center;
-	background-color:white;
-	color: black;
+    text-align: left;
+	background-color:black;
+	color: rgb(31, 173, 230);
 	border-radius: 10%;
+	padding: 5px;
+	margin-left: 920px;
 	font-size: medium;
 }*/
-footer
+.search-bar input
 {
-	background-color:black;
-	color: white;
-	position: fixed;
-	bottom: 4px;
+	background-color: transparent;
+	border: none;
+	height: 100%;
 	width: 100%;
-	text-align: center;
-}
-footer a
-{
-	padding: 3px;
-	margin: 6px;
-	text-decoration:underline;
-	color:blue;
-	display: inline-block;
+	font-size: 1.25rem;	
+	margin-left: 5px;
 }
 #inbox									/*id selector*/
 {
@@ -99,16 +91,24 @@ footer a
     font-size: 17px;
 	border-radius: 5px;
 }
+footer
+{
+	background-color:black;
+	color: white;
+	position: fixed;
+	bottom: 4px;
+	width: 100%;
+	text-align: center;
+}
+footer a
+{
+	padding: 3px;
+	margin: 6px;
+	text-decoration:underline;
+	color:blue;
+	display: inline-block;
+}
 p
 {
 	text-align: center;
-}
-.search-bar input
-{
-	background-color: transparent;
-	border: none;
-	height: 100%;
-	width: 100%;
-	font-size: 1.25rem;	
-	margin-left: 5px;
 }
