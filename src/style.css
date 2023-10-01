@@ -20,11 +20,16 @@ nav a
 }
 #textsearch
 {
-	text-align: left;
+	align-items: center;
+	background-color: white;
 	margin:0 auto;
 	line-height: 30px;
-	padding-top:0px;
-	width:450px;
+	border-radius: 10px;
+	height: 2.5rem;
+	box-shadow: 0px 8px 8px #ddd;
+	display: flex;
+	padding: 0 15px;
+	width:40%;
 	border-color:black;
 }
 #img-tag
@@ -35,17 +40,27 @@ nav a
 	display:block;
 	margin:0 auto;
 }
-.search-bar				/*class selector*/
+search-bar				
 {
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
 }
+/*.btn1
+{
+	margin:5px ;
+	padding: 8px;
+    text-align: center;
+	background-color:white;
+	color: black;
+	border-radius: 10%;
+	font-size: medium;
+}*/
 footer
 {
 	background-color:black;
 	color: white;
 	position: fixed;
-	bottom: 3px;
+	bottom: 4px;
 	width: 100%;
 	text-align: center;
 }
@@ -64,6 +79,7 @@ footer a
 	text-align: right;
     margin: 5px;
     font-size: 17px;
+	border-radius: 5px;
 }
 #web-store								/*id selector*/
 {
@@ -72,6 +88,7 @@ footer a
 	text-align: right;
     margin: 5px;
     font-size: 17px;
+	border-radius: 5px;
 }
 #add-shortcut							/*id selector*/
 {
@@ -80,8 +97,18 @@ footer a
 	text-align: right;
     margin: 3px;
     font-size: 17px;
+	border-radius: 5px;
 }
 p
 {
 	text-align: center;
+}
+.search-bar input
+{
+	background-color: transparent;
+	border: none;
+	height: 100%;
+	width: 100%;
+	font-size: 1.25rem;	
+	margin-left: 5px;
 }

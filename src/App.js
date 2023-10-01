@@ -1,6 +1,7 @@
 import React from "react";
-import "./App.css";
 import "./style.css";
+import "./Components/SearchBar";
+import SearchBar from "./Components/SearchBar";
 
 function App() {
   return (
@@ -19,23 +20,27 @@ function App() {
           id="textsearch"
           placeholder="Search Google or type a URL"
         />
+
+        {/*<button className="btn1" type="search">
+          Search
+  </button>*/}
       </div>
       <p>
         <input
           type="submit"
-          className="btn1 btn-outline-light btn-sm"
+          className="btn btn-outline-light btn-sm"
           value="Inbox"
           id="inbox"
         />
         <input
           type="submit"
-          className="btn2 btn-outline-light btn-sm"
+          className="btn btn-outline-light btn-sm"
           value="Web Store"
           id="web-store"
         />
         <input
           type="submit"
-          className="btn3 btn-outline-light btn-sm"
+          className="btn btn-outline-light btn-sm"
           value="Add shortcut"
           id="add-shortcut"
         />
@@ -46,6 +51,7 @@ function App() {
         <a href="https://about.google/">About</a>
         <p>&copy; 2023 Google Clone</p>
       </footer>
+      <SearchBar />
     </div>
   );
 }
